@@ -50,7 +50,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-6">
-      <h1 className="text-3xl font-bold mb-6">🎤 Audio to Text</h1>
+      <h1 className="text-3xl font-bold mb-6">🎤 Audio to Txt</h1>
 
       <div className="flex space-x-4 mb-4">
         <input
