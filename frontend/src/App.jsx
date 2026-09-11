@@ -17,7 +17,6 @@ export default function App() {
     const formData = new FormData();
     formData.append("file", file);
 
-    // Step 1: Upload file to backend
     const res = await fetch("http://127.0.0.1:8000/transcribe", {
       method: "POST",
       body: formData,
@@ -28,7 +27,6 @@ export default function App() {
     setStatus("Processing...");
     setProgress(0);
 
-    // Step 2: Poll backend for progress
     const interval = setInterval(async () => {
       const statusRes = await fetch(
         `http://127.0.0.1:8000/status/${data.task_id}`

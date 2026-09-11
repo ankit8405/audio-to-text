@@ -1,34 +1,13 @@
 node_modules/
 dist/
-build/
 .env
 .env.*
-
 .DS_Store
-Thumbs.db
-
-# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
-.venv/
 venv/
-
-.vscode/
-
-# Logs
 *.log
-
-# Output
-*.out
-*.bak
-
-# Misc
-*.swp
-*.swo
-
-# Gemini
-*.txt
+gemini_*.txt
 GEMINI.md
