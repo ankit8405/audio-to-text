@@ -37,7 +37,7 @@ voice-to-text/
 cd backend
 python3 -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
-pip install fastapi uvicorn python-multipart openai-whisper
+pip install -r requirements.txt
 ```
 
 `openai-whisper` pulls in PyTorch and downloads the model weights on first run, so the initial start may take a while.
