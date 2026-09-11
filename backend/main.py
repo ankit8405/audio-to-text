@@ -22,7 +22,7 @@ tasks = {}
 async def transcribe_file(task_id: str, file_path: str):
     try:
         tasks[task_id]["status"] = "IN_PROGRESS"
-        tasks[task_id]["progress"] = 10
+        tasks[task_id]["progress"] = 11
 
         for i in range(20, 90, 10):
             await asyncio.sleep(1)
